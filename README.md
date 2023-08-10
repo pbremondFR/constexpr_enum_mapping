@@ -33,7 +33,9 @@ constexpr auto enum_names = const_enum::get_enum_array<e_example, SIZEOF_ENUM>()
 
 ### How?
 
-Just include `const_enum.hpp`. Functions are in the `const_enum` namespace. Examples are available in the `examples` directory, and are also below, because you probably can't be bothered:
+You need C++17 or greater for this to work, because it's using `std::string_view`. This implementation has been made for the MSVC compiler, but it can certainly be ported over to gcc/clang/whatever.
+
+To use, simply include `const_enum.hpp`. Functions are in the `const_enum` namespace. Examples are available in the `examples` directory, and are also below, because you probably can't be bothered:
 
 ```C++
 enum e_example {
