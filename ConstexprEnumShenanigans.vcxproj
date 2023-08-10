@@ -129,10 +129,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\ConstexprEnumShenanigans.cpp" />
+    <ClCompile Include="examples\ConstexprEnumShenanigans.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="inc\enum.hpp" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\const_enum.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

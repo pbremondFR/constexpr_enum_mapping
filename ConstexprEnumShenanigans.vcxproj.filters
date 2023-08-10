@@ -15,12 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ConstexprEnumShenanigans.cpp">
+    <ClCompile Include="examples\ConstexprEnumShenanigans.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="inc\enum.hpp">
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\const_enum.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
